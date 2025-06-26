@@ -1,0 +1,313 @@
+{
+  "startPage": {
+    "title": "What's Your Inner Pie?",
+    "description": "In a world where every soul is a slice of pie, discover the flavor that best captures your inner world. Sweet, spicy, dreamy — what's your essence?",
+    "startButton": "Find My Pie"
+  },
+  "questionPage": {
+    "questionNumber": "Question {{current}}/{{total}}",
+    "nextButton": "Next"
+  },
+  "resultPage": {
+    "yourResult": "Your Pie: {{result}}",
+    "goodMatch": "Best Match",
+    "badMatch": "Worst Match",
+    "restartButton": "Take the Test Again"
+  },
+  "mbtiData": {
+    "questions": [
+      {
+        "question": "You run a pie shop. A new customer walks in. What do you do?",
+        "choices": [
+          { "text": "You smile brightly and say, 'What kind of pie are you looking for today?'" },
+          { "text": "You nod politely and quietly wait for them to speak first" }
+        ]
+      },
+      {
+        "question": "You're creating a new pie recipe. Your approach is:",
+        "choices": [
+          { "text": "You recall a dreamy pie you once saw in a dream and follow your imagination" },
+          { "text": "You analyze trends, ingredient costs, and customer reviews" }
+        ]
+      },
+      {
+        "question": "An employee accidentally used salt instead of sugar. You:",
+        "choices": [
+          { "text": "Calmly explain what went wrong and how to fix it next time" },
+          { "text": "Say, 'It’s okay! Mistakes happen. Let’s try again together'" }
+        ]
+      },
+      {
+        "question": "You suddenly get a flood of pie orders! You:",
+        "choices": [
+          { "text": "Write out inventory, divide tasks, and follow a structured plan" },
+          { "text": "Jump into action — just start baking and adjust as you go!" }
+        ]
+      },
+      {
+        "question": "You're deciding which pie to showcase today. You choose based on:",
+        "choices": [
+          { "text": "Best-selling pie based on recent sales and data" },
+          { "text": "The colorful rainbow pie that catches your eye" }
+        ]
+      },
+      {
+        "question": "When posting your pie photo on social media, you:",
+        "choices": [
+          { "text": "Schedule the post, analyze hashtags, and optimize timing" },
+          { "text": "Go with the vibe and post what feels right in the moment" }
+        ]
+      },
+      {
+        "question": "A friend asks you to try their new pie and give feedback. You say:",
+        "choices": [
+          { "text": "'It’s a bit bland — maybe add more syrup next time'" },
+          { "text": "'Hmm! Very unique! Let’s make another one together soon'" }
+        ]
+      },
+      {
+        "question": "You're entering a timed pie contest. You:",
+        "choices": [
+          { "text": "Set a timer, break the process into steps, and stay on track" },
+          { "text": "Grab your ingredients and bake by feel — trust your instincts!" }
+        ]
+      },
+      {
+        "question": "A customer says, 'Wow, this pie seems expensive...' You respond:",
+        "choices": [
+          { "text": "'Considering the quality and cost, it’s actually a fair price'" },
+          { "text": "'It is, but I poured my heart into it!' with a warm smile" }
+        ]
+      },
+      {
+        "question": "When do you feel happiest while making pie?",
+        "choices": [
+          { "text": "Watching someone enjoy your pie with a smile" },
+          { "text": "Sitting quietly, enjoying the aroma from the oven" }
+        ]
+      },
+      {
+        "question": "When you see a new recipe, you:",
+        "choices": [
+          { "text": "Review the full instructions before starting" },
+          { "text": "Just dive in and check the recipe as you go" }
+        ]
+      },
+      {
+        "question": "You’re invited to a community pie gathering. You:",
+        "choices": [
+          { "text": "Bring a bunch of pies and chat with everyone" },
+          { "text": "Try a few bites, observe the scene, then leave quietly" }
+        ]
+      },
+      {
+        "question": "Your pie suddenly goes viral on the news! You:",
+        "choices": [
+          { "text": "Start planning your next moves and how to handle demand" },
+          { "text": "Get emotional and celebrate with your friends and family" }
+        ]
+      },
+      {
+        "question": "You’re out of a key ingredient while baking. You:",
+        "choices": [
+          { "text": "Quickly look for a substitute that fits the flavor profile" },
+          { "text": "Grab something that 'feels right' and improvise the recipe" }
+        ]
+      },
+      {
+        "question": "You're launching a new pie. Your style is:",
+        "choices": [
+          { "text": "Plan out the name, ingredients, and pricing beforehand" },
+          { "text": "Make the pie first and tweak things based on feedback" }
+        ]
+      },
+      {
+        "question": "Five minutes before closing, a customer walks in. You:",
+        "choices": [
+          { "text": "Politely explain that the shop is closing soon" },
+          { "text": "'You're our last customer — let’s make it special!'" }
+        ]
+      }
+    ],
+    "results": {
+      "ISTJ": {
+        "goodMatchDescription": "Apple Pie and Chocolate Mousse Pie are a perfect blend of classic and sweet!",
+        "badMatchDescription": "Apple Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ISFJ": {
+        "goodMatchDescription": "Walnut Pie and Taco Pie — an unexpected mix of comfort and thrill!",
+        "badMatchDescription": "Walnut Pie and Cherry Pie are so different, they might leave a bitter taste. 🍒"
+      },
+      "INFJ": {
+        "goodMatchDescription": "Lavender Honey Pie and Rainbow Pie — a healing combination that makes each other's scents shine even brighter!",
+        "badMatchDescription": "Lavender Honey Pie and Taco Pie are so different, they might leave a bitter taste. 🌮"
+      },
+      "INTJ": {
+        "goodMatchDescription": "Blackcurrant Pie and Gochujang Bulgogi Pie are a strategic combination that understands each other's depth!",
+        "badMatchDescription": "Blackcurrant Pie and Peach Crumble Pie are so different, they might leave a bitter taste. 🍑"
+      },
+      "ISTP": {
+        "goodMatchDescription": "Meat Pie and Banana Cream Pie — a surprising mix of skill and softness!",
+        "badMatchDescription": "Meat Pie and Rainbow Pie are so different, they might leave a bitter taste. 🌈"
+      },
+      "ISFP": {
+        "goodMatchDescription": "Peach Crumble Pie and Raspberry Chocolate Pie are a sweet work of art together!",
+        "badMatchDescription": "Peach Crumble Pie and Blackcurrant Pie might be too sweet and could even taste bitter. ⚫"
+      },
+      "INFP": {
+        "goodMatchDescription": "Blueberry Pie and Rainbow Pie are a fantastic combination, full of sweet imagination!",
+        "badMatchDescription": "Blueberry Pie and Apple Pie might be too sweet and could even taste bitter. 🍎"
+      },
+      "INTP": {
+        "goodMatchDescription": "Cherry Pie and Chicken Pot Pie — a quirky and solid combination!",
+        "badMatchDescription": "Cherry Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
+      },
+      "ESTP": {
+        "goodMatchDescription": "Taco Pie and Walnut Pie — an exciting combo of thrill and comfort!",
+        "badMatchDescription": "Taco Pie and Lavender Honey Pie might be too sweet and could even taste bitter. 💜"
+      },
+      "ESFP": {
+        "goodMatchDescription": "Chocolate Mousse Pie and Apple Pie — a perfect blend of sweet and classic!",
+        "badMatchPieDescription": "Chocolate Mousse Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ENFP": {
+        "goodMatchDescription": "Rainbow Pie and Lavender Honey Pie — a colorful combo that shines brighter together!",
+        "badMatchDescription": "Rainbow Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
+      },
+      "ENTP": {
+        "goodMatchDescription": "Gochujang Bulgogi Pie and Blackcurrant Pie — a fiery combo that enjoys each other’s spice!",
+        "badMatchDescription": "Gochujang Bulgogi Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
+      },
+      "ESTJ": {
+        "goodMatchDescription": "Chicken Pot Pie and Cherry Pie — a solid and quirky combo!",
+        "badMatchDescription": "Chicken Pot Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ESFJ": {
+        "goodMatchDescription": "Banana Cream Pie and Meat Pie — a surprising mix of softness and practicality!",
+        "badMatchDescription": "Banana Cream Pie and Cherry Pie might be too sweet and could even taste bitter. 🍒"
+      },
+      "ENFJ": {
+        "goodMatchDescription": "Raspberry Chocolate Pie and Peach Crumble Pie — a sweet artistic blend!",
+        "badMatchDescription": "Raspberry Chocolate Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
+      },
+      "ENTJ": {
+        "goodMatchDescription": "Steak & Ale Pie and Blueberry Pie — the perfect blend of planning and imagination!",
+        "badMatchDescription": "Steak & Ale Pie and Peach Crumble Pie might be too sweet and could even taste bitter. 🍑"
+      }
+    },
+    "mbtiPies": {
+      "INFP": {
+        "pie": "Blueberry Pie",
+        "emoji": "🫐",
+        "description": "Sweet on the inside, shy on the outside, a literary girl's emotional pie. 🫐",
+        "goodMatchPieDescription": "Blueberry Pie and Rainbow Pie are a fantastic combination, full of sweet imagination!",
+        "badMatchPieDescription": "Blueberry Pie and Apple Pie might be too sweet and could even taste bitter. 🍎"
+      },
+      "ENFP": {
+        "pie": "Rainbow Pie",
+        "emoji": "🌈",
+        "description": "A burst of energy that shines like a rainbow today! 🌈",
+        "goodMatchPieDescription": "Rainbow Pie and Lavender Honey Pie are a healing combination that makes each other's scents shine even brighter!",
+        "badMatchPieDescription": "Rainbow Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
+      },
+      "INTJ": {
+        "pie": "Blackcurrant Pie",
+        "emoji": "⚫",
+        "description": "A cool and deep flavor, a strategist's pie that's not easily approached. ⚫",
+        "goodMatchPieDescription": "Blackcurrant Pie and Gochujang Bulgogi Pie are a strategic combination that understands each other's depth!",
+        "badMatchPieDescription": "Blackcurrant Pie and Peach Crumble Pie might be too sweet and could even taste bitter. 🍑"
+      },
+      "ENTP": {
+        "pie": "Gochujang Bulgogi Pie",
+        "emoji": "🌶️",
+        "description": "Shocking at first bite, addictive at second! The edgy pie of debate masters. 🌶️",
+        "goodMatchPieDescription": "Gochujang Bulgogi Pie and Blackcurrant Pie are a fiery combination that enjoys each other's spiciness!",
+        "badMatchPieDescription": "Gochujang Bulgogi Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
+      },
+      "INFJ": {
+        "pie": "Lavender Honey Pie",
+        "emoji": "💜",
+        "description": "A healer's pie with a subtle fragrance and warm sweetness. 💜",
+        "goodMatchPieDescription": "Lavender Honey Pie and Rainbow Pie are a healing combination that enhances each other's aromas!",
+        "badMatchPieDescription": "Lavender Honey Pie and Taco Pie might be too sweet and could even taste bitter. 🌮"
+      },
+      "ISFP": {
+        "pie": "Peach Crumble Pie",
+        "emoji": "🍑",
+        "description": "A pretty and quiet emotional artist, a pie that brings spring in one bite. 🍑",
+        "goodMatchPieDescription": "Peach Crumble Pie and Raspberry Chocolate Pie are a combination that creates sweet art!",
+        "badMatchPieDescription": "Peach Crumble Pie and Blackcurrant Pie might be too sweet and could even taste bitter. ⚫"
+      },
+      "ISTJ": {
+        "pie": "Apple Pie",
+        "emoji": "🍎",
+        "description": "Classics are the best. A trustworthy traditionalist's pie. 🍎",
+        "goodMatchPieDescription": "Apple Pie and Chocolate Mousse Pie are a perfect blend of classic and sweet!",
+        "badMatchPieDescription": "Apple Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ISFJ": {
+        "pie": "Walnut Pie",
+        "emoji": "🌰",
+        "description": "A reliable and warm-hearted, mother-like pie. 🌰",
+        "goodMatchPieDescription": "Walnut Pie and Taco Pie are an unexpected combination of reliability and thrill!",
+        "badMatchPieDescription": "Walnut Pie and Cherry Pie might be too sweet and could even taste bitter. 🍒"
+      },
+      "ESTP": {
+        "pie": "Taco Pie",
+        "emoji": "🌮",
+        "description": "An action hero pie that enjoys thrills and adventure! 🌮",
+        "goodMatchPieDescription": "Taco Pie and Walnut Pie are a fantastic combination of thrill and reliability!",
+        "badMatchPieDescription": "Taco Pie and Lavender Honey Pie might be too sweet and could even taste bitter. 💜"
+      },
+      "ESFP": {
+        "pie": "Chocolate Mousse Pie",
+        "emoji": "🍫",
+        "description": "Maximum sweetness! A mousse fairy pie that brings parties and laughter. 🍫",
+        "goodMatchPieDescription": "Chocolate Mousse Pie and Apple Pie are a perfect blend of sweet and classic!",
+        "badMatchPieDescription": "Chocolate Mousse Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ESTJ": {
+        "pie": "Chicken Pot Pie",
+        "emoji": "🍗",
+        "description": "A reliable and realistic problem-solver. A leader pie that takes care of everyone. 🍗",
+        "goodMatchPieDescription": "Chicken Pot Pie and Cherry Pie are an unexpected combination of reliability and quirkiness!",
+        "badMatchPieDescription": "Chicken Pot Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
+      },
+      "ESFJ": {
+        "pie": "Banana Cream Pie",
+        "emoji": "🍌",
+        "description": "A sweet and soft popular pie, a mood maker. 🍌",
+        "goodMatchPieDescription": "Banana Cream Pie and Meat Pie are an unexpected combination of softness and practicality!",
+        "badMatchPieDescription": "Banana Cream Pie and Cherry Pie might be too sweet and could even taste bitter. 🍒"
+      },
+      "ENFJ": {
+        "pie": "Raspberry Chocolate Pie",
+        "emoji": "❤️",
+        "description": "A romantic leader pie armed with love and passion. ❤️",
+        "goodMatchPieDescription": "Raspberry Chocolate Pie and Peach Crumble Pie are a combination that creates sweet art!",
+        "badMatchPieDescription": "Raspberry Chocolate Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
+      },
+      "INTP": {
+        "pie": "Cherry Pie",
+        "emoji": "🍒",
+        "description": "Looks ordinary, but filled with peculiar logic inside. 🍒",
+        "goodMatchPieDescription": "Cherry Pie and Chicken Pot Pie are an unexpected combination of quirkiness and reliability!",
+        "badMatchPieDescription": "Cherry Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
+      },
+      "ENTJ": {
+        "pie": "Steak & Ale Pie",
+        "emoji": "🥩",
+        "description": "Full of plans and drive! A leadership pie that devours goals. 🥩",
+        "goodMatchPieDescription": "Steak & Ale Pie and Blueberry Pie are a perfect blend of planning and imagination!",
+        "badMatchPieDescription": "Steak & Ale Pie and Peach Crumble Pie might be too sweet and could even taste bitter. 🍑"
+      },
+      "ISTP": {
+        "pie": "Meat Pie",
+        "emoji": "🍖",
+        "description": "Actions speak louder than words! A practical technician style meat pie. 🍖",
+        "goodMatchPieDescription": "Meat Pie and Banana Cream Pie are an unexpected combination of practical skill and softness!",
+        "badMatchPieDescription": "Meat Pie and Rainbow Pie might be too sweet and could even taste bitter. 🌈"
+      }
+    }
+  }
+}
