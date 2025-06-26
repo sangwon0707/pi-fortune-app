@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/pi-fortune-app/static/css/main.db2ece16.css",
+    "main.js": "/pi-fortune-app/static/js/main.561fd5f2.js",
+    "static/js/453.bb01432c.chunk.js": "/pi-fortune-app/static/js/453.bb01432c.chunk.js",
+    "static/media/start_page_background.png": "/pi-fortune-app/static/media/start_page_background.243cf9f62f6ec606cabc.png",
+    "static/media/MBTI_ENFJ.png": "/pi-fortune-app/static/media/MBTI_ENFJ.b0e644912372c858e0dd.png",
+    "static/media/MBTI_ESTJ.png": "/pi-fortune-app/static/media/MBTI_ESTJ.3601ecc8af781fa52f5e.png",
+    "static/media/MBTI_INTP.png": "/pi-fortune-app/static/media/MBTI_INTP.2183e225939bf40f83a4.png",
+    "static/media/MBTI_ESFP.png": "/pi-fortune-app/static/media/MBTI_ESFP.0973611a2091ad20de2a.png",
+    "static/media/MBTI_ISFP.png": "/pi-fortune-app/static/media/MBTI_ISFP.58659d4bb6dfffa530f5.png",
+    "static/media/MBTI_ENFP.png": "/pi-fortune-app/static/media/MBTI_ENFP.df77ed94bdfcb7a8669f.png",
+    "static/media/MBTI_ISTJ.png": "/pi-fortune-app/static/media/MBTI_ISTJ.56dd64e324c07483a8b4.png",
+    "static/media/MBTI_INFP.png": "/pi-fortune-app/static/media/MBTI_INFP.3b1f5faa990b4494490f.png",
+    "static/media/MBTI_ESFJ.png": "/pi-fortune-app/static/media/MBTI_ESFJ.b02252f4136e09422f3b.png",
+    "static/media/MBTI_INFJ.png": "/pi-fortune-app/static/media/MBTI_INFJ.7a1077fa69f3d4f189fb.png",
+    "static/media/MBTI_ENTJ.png": "/pi-fortune-app/static/media/MBTI_ENTJ.496e5a6214a5fea6e726.png",
+    "static/media/MBTI_ESTP.png": "/pi-fortune-app/static/media/MBTI_ESTP.a545e14927c5004cfbc3.png",
+    "static/media/MBTI_INTJ.png": "/pi-fortune-app/static/media/MBTI_INTJ.cd7e451d61e3082cda6e.png",
+    "static/media/MBTI_ENTP.png": "/pi-fortune-app/static/media/MBTI_ENTP.9debd17d7fd661a9fc3c.png",
+    "static/media/MBTI_ISFJ.png": "/pi-fortune-app/static/media/MBTI_ISFJ.9235f58b559f78f2fcde.png",
+    "static/media/MBTI_ISTP.png": "/pi-fortune-app/static/media/MBTI_ISTP.c81aab6567f4d58a47e8.png",
+    "index.html": "/pi-fortune-app/index.html",
+    "main.db2ece16.css.map": "/pi-fortune-app/static/css/main.db2ece16.css.map",
+    "main.561fd5f2.js.map": "/pi-fortune-app/static/js/main.561fd5f2.js.map",
+    "453.bb01432c.chunk.js.map": "/pi-fortune-app/static/js/453.bb01432c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db2ece16.css",
+    "static/js/main.561fd5f2.js"
+  ]
+}
