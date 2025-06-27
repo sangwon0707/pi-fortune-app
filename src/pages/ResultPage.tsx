@@ -53,7 +53,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
         <h2 className="text-[#0c151d] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">
           {t('resultPage.yourResult', { result: t(`mbtiData.mbtiPies.${result}.pie`) })}
         </h2>
-        <p className="text-4xl text-center mb-2">{t(`mbtiData.mbtiPies.${result}.emoji`)}</p>
+        
         <p className="text-[#0c151d] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
           {t(`mbtiData.mbtiPies.${result}.description`)}
         </p>
