@@ -43,7 +43,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
   };
 
   return (
-    <div className="relative flex size-full min-h-screen flex-col bg-slate-50 justify-between group/design-root overflow-x-hidden">
+    <div className="relative flex size-full h-full flex-col bg-slate-50 justify-between group/design-root overflow-x-hidden">
       <div ref={resultRef}> {/* Wrap the content to be captured with a ref */}
         {mbtiImage && (
           <div className="flex justify-center mt-8 mb-4">

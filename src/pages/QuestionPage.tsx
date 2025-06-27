@@ -21,7 +21,7 @@ const QuestionPage: React.FC<QuestionPageProps> = ({ questionIndex, onAnswer }) 
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-50 p-4">
+    <div className="flex flex-col items-center justify-center h-full bg-gray-50 p-4">
       <div className="w-full max-w-md">
         <div className="mb-4">
           <div className="relative pt-1">

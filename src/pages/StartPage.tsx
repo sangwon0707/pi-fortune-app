@@ -14,13 +14,13 @@ const StartPage: React.FC<StartPageProps> = ({ onStart }) => {
   };
 
   return (
-    <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden">
+    <div className="relative flex size-full h-full flex-col bg-slate-50 group/design-root overflow-x-hidden">
       <div
         className="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${startPageBackground})` }}
       ></div>
       <div className="absolute inset-0 bg-black opacity-40"></div> {/* Semi-transparent overlay */}
-      <div className="relative z-10 flex flex-col h-screen"> {/* Changed h-full to h-screen */}
+      <div className="relative z-10 flex flex-col h-full"> {/* Changed h-full to h-screen */}
         <div className="flex justify-end p-4">
           <select
             onChange={(e) => changeLanguage(e.target.value)}
