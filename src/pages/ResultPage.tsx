@@ -63,7 +63,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
             {goodMatchImage && (
               <img src={goodMatchImage} alt={resultData.goodMatch} className="w-20 h-20 rounded-full object-cover mx-auto mb-2" />
             )}
-            <p className="text-3xl font-bold text-green-500">{t(`mbtiData.mbtiPies.${resultData.goodMatch}.pie`)}</p>
+            <p className="text-base font-bold text-green-500">{t(`mbtiData.mbtiPies.${resultData.goodMatch}.pie`)}</p>
             <p className="text-sm text-gray-600 mt-2">{t(`mbtiData.results.${resultData.goodMatch}.goodMatchDescription`)}</p>
           </div>
           <div className="text-center p-4 rounded-lg bg-red-100 flex-1 mx-2">
@@ -71,7 +71,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
             {badMatchImage && (
               <img src={badMatchImage} alt={resultData.badMatch} className="w-20 h-20 rounded-full object-cover mx-auto mb-2" />
             )}
-            <p className="text-3xl font-bold text-red-500">{t(`mbtiData.mbtiPies.${resultData.badMatch}.pie`)}</p>
+            <p className="text-base font-bold text-red-500">{t(`mbtiData.mbtiPies.${resultData.badMatch}.pie`)}</p>
             <p className="text-sm text-gray-600 mt-2">{t(`mbtiData.results.${resultData.badMatch}.badMatchDescription`)}</p>
           </div>
         </div>
