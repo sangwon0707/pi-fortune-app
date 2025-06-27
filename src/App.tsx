@@ -5,7 +5,7 @@ import StartPage from './pages/StartPage';
 import QuestionPage from './pages/QuestionPage';
 import ResultPage from './pages/ResultPage';
 import { mbtiData, MbtiType } from './data/mbti';
-import { useTranslation } from 'react-i18next';
+
 
 type GameState = 'start' | 'playing' | 'result';
 
