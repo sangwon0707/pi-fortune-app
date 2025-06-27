@@ -61,7 +61,7 @@ const QuestionPage: React.FC<QuestionPageProps> = ({ questionIndex, onAnswer }) 
           <button
             onClick={handleNext}
             disabled={!selectedAnswer}
-            className="mt-6 w-full bg-gray-200 hover:bg-coral text-white font-bold py-3 px-4 rounded-lg transition-opacity disabled:opacity-50"
+            className="mt-6 w-full bg-gray-700 hover:bg-coral text-white font-bold py-3 px-4 rounded-lg transition-opacity disabled:opacity-50"
           >
             {t('questionPage.nextButton')}
           </button>
