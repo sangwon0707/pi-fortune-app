@@ -80,14 +80,14 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
         <div className="flex px-4 py-3">
           <button
             onClick={handleDownload}
-            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105 mr-2"
+            className="flex min-w-[84px] max-w-[240px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105 mr-2"
           >
-            <span className="truncate">Download Result</span>
+            <span className="truncate">Download</span>
           </button>
           <button
             id="restart-button" // Added ID to exclude from screenshot
             onClick={onRestart}
-            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105"
+            className="flex min-w-[84px] max-w-[720px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105"
           >
             <span className="truncate">{t('resultPage.restartButton')}</span>
           </button>

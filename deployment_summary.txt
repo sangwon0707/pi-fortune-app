@@ -1,0 +1,30 @@
+Deployment Troubleshooting Report
+
+This document summarizes the changes made to the `pi-fortune-app` repository to resolve deployment failures on Netlify.
+
+The primary issue was that the Netlify build environment treats all warnings as critical errors, which caused the build process to fail repeatedly. The following fixes were implemented sequentially to address these issues.
+
+1.  **Ignoring the Build Directory**
+    *   **File:** `.gitignore`
+    *   **Change:** Added the `/build` directory to the `.gitignore` file.
+    *   **Reason:** To prevent the locally generated `build` folder from being committed to the GitHub repository, as Netlify performs its own build process.
+
+2.  **Configuring for Netlify (from GitHub Pages)**
+    *   **File:** `package.json`
+    *   **Change:** Removed the `"homepage"` field.
+    *   **Reason:** The `homepage` key is specific to deployments on GitHub Pages and is not needed for Netlify, which assigns its own domain.
+
+3.  **Resolving Dependency Conflicts**
+    *   **File:** `package.json`
+    *   **Change:** Downgraded the `typescript` dependency from version `^5.0.0` to `^4.9.5`.
+    *   **Reason:** The version of `react-scripts` (5.0.1) used in the project has a peer dependency requirement for TypeScript version 4. The newer TypeScript v5 caused a conflict during the `npm install` phase on Netlify's servers.
+
+4.  **Fixing Linting Errors (Unused Variables)**
+    *   **File:** `src/App.tsx`
+    *   **Changes:**
+        1.  Removed the unused `t` variable declaration (`const { t } = useTranslation()`).
+        2.  Corrected the resulting empty pattern (`const {} = ...`) by removing the entire line.
+        3.  Finally, removed the now-unused `useTranslation` import statement from `react-i18next`.
+    *   **Reason:** The CI environment enforces a "no unused variables" rule. The `useTranslation` hook was imported and called, but its returned values were not used in the component, leading to three separate build failures until all traces of the unused code were removed.
+
+After these changes were committed and pushed, the Netlify build and deployment process completed successfully.
