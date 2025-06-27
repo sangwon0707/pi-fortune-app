@@ -47,7 +47,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
       <div ref={resultRef}> {/* Wrap the content to be captured with a ref */}
         {mbtiImage && (
           <div className="flex justify-center mt-8 mb-4">
-            <img src={mbtiImage} alt={result} className="w-60 h-60 rounded-full object-cover shadow-lg" />
+            <img src={mbtiImage} alt={result} className="w-[200px] h-[200px] rounded-full object-cover shadow-lg" />
           </div>
         )}
         <h2 className="text-[#0c151d] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">
