@@ -199,112 +199,112 @@
       "INFP": {
         "pie": "Blueberry Pie",
         "emoji": "🫐",
-        "description": "Sweet on the inside, shy on the outside, a literary girl's emotional pie. 🫐",
+        "description": "Sweet on the inside, shy on the outside, a literary girl's emotional pie.",
         "goodMatchPieDescription": "Blueberry Pie and Rainbow Pie are a fantastic combination, full of sweet imagination!",
         "badMatchPieDescription": "Blueberry Pie and Apple Pie might be too sweet and could even taste bitter. 🍎"
       },
       "ENFP": {
         "pie": "Rainbow Pie",
         "emoji": "🌈",
-        "description": "A burst of energy that shines like a rainbow today! 🌈",
+        "description": "A burst of energy that shines like a rainbow today!",
         "goodMatchPieDescription": "Rainbow Pie and Lavender Honey Pie are a healing combination that makes each other's scents shine even brighter!",
         "badMatchPieDescription": "Rainbow Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
       },
       "INTJ": {
         "pie": "Blackcurrant Pie",
         "emoji": "⚫",
-        "description": "A cool and deep flavor, a strategist's pie that's not easily approached. ⚫",
+        "description": "A cool and deep flavor, a strategist's pie that's not easily approached.",
         "goodMatchPieDescription": "Blackcurrant Pie and Gochujang Bulgogi Pie are a strategic combination that understands each other's depth!",
         "badMatchPieDescription": "Blackcurrant Pie and Peach Crumble Pie might be too sweet and could even taste bitter. 🍑"
       },
       "ENTP": {
         "pie": "Gochujang Bulgogi Pie",
         "emoji": "🌶️",
-        "description": "Shocking at first bite, addictive at second! The edgy pie of debate masters. 🌶️",
+        "description": "Shocking at first bite, addictive at second! The edgy pie of debate masters.",
         "goodMatchPieDescription": "Gochujang Bulgogi Pie and Blackcurrant Pie are a fiery combination that enjoys each other's spiciness!",
         "badMatchPieDescription": "Gochujang Bulgogi Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
       },
       "INFJ": {
         "pie": "Lavender Honey Pie",
         "emoji": "💜",
-        "description": "A healer's pie with a subtle fragrance and warm sweetness. 💜",
+        "description": "A healer's pie with a subtle fragrance and warm sweetness.",
         "goodMatchPieDescription": "Lavender Honey Pie and Rainbow Pie are a healing combination that enhances each other's aromas!",
         "badMatchPieDescription": "Lavender Honey Pie and Taco Pie might be too sweet and could even taste bitter. 🌮"
       },
       "ISFP": {
         "pie": "Peach Crumble Pie",
         "emoji": "🍑",
-        "description": "A pretty and quiet emotional artist, a pie that brings spring in one bite. 🍑",
+        "description": "A pretty and quiet emotional artist, a pie that brings spring in one bite.",
         "goodMatchPieDescription": "Peach Crumble Pie and Raspberry Chocolate Pie are a combination that creates sweet art!",
         "badMatchPieDescription": "Peach Crumble Pie and Blackcurrant Pie might be too sweet and could even taste bitter. ⚫"
       },
       "ISTJ": {
         "pie": "Apple Pie",
         "emoji": "🍎",
-        "description": "Classics are the best. A trustworthy traditionalist's pie. 🍎",
+        "description": "Classics are the best. A trustworthy traditionalist's pie.",
         "goodMatchPieDescription": "Apple Pie and Chocolate Mousse Pie are a perfect blend of classic and sweet!",
         "badMatchPieDescription": "Apple Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
       },
       "ISFJ": {
         "pie": "Walnut Pie",
         "emoji": "🌰",
-        "description": "A reliable and warm-hearted, mother-like pie. 🌰",
+        "description": "A reliable and warm-hearted, mother-like pie.",
         "goodMatchPieDescription": "Walnut Pie and Taco Pie are an unexpected combination of reliability and thrill!",
         "badMatchPieDescription": "Walnut Pie and Cherry Pie might be too sweet and could even taste bitter. 🍒"
       },
       "ESTP": {
         "pie": "Taco Pie",
         "emoji": "🌮",
-        "description": "An action hero pie that enjoys thrills and adventure! 🌮",
+        "description": "An action hero pie that enjoys thrills and adventure!",
         "goodMatchPieDescription": "Taco Pie and Walnut Pie are a fantastic combination of thrill and reliability!",
         "badMatchPieDescription": "Taco Pie and Lavender Honey Pie might be too sweet and could even taste bitter. 💜"
       },
       "ESFP": {
         "pie": "Chocolate Mousse Pie",
         "emoji": "🍫",
-        "description": "Maximum sweetness! A mousse fairy pie that brings parties and laughter. 🍫",
+        "description": "Maximum sweetness! A mousse fairy pie that brings parties and laughter.",
         "goodMatchPieDescription": "Chocolate Mousse Pie and Apple Pie are a perfect blend of sweet and classic!",
         "badMatchPieDescription": "Chocolate Mousse Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
       },
       "ESTJ": {
         "pie": "Chicken Pot Pie",
         "emoji": "🍗",
-        "description": "A reliable and realistic problem-solver. A leader pie that takes care of everyone. 🍗",
+        "description": "A reliable and realistic problem-solver. A leader pie that takes care of everyone.",
         "goodMatchPieDescription": "Chicken Pot Pie and Cherry Pie are an unexpected combination of reliability and quirkiness!",
         "badMatchPieDescription": "Chicken Pot Pie and Blueberry Pie might be too sweet and could even taste bitter. 🫐"
       },
       "ESFJ": {
         "pie": "Banana Cream Pie",
         "emoji": "🍌",
-        "description": "A sweet and soft popular pie, a mood maker. 🍌",
+        "description": "A sweet and soft popular pie, a mood maker.",
         "goodMatchPieDescription": "Banana Cream Pie and Meat Pie are an unexpected combination of softness and practicality!",
         "badMatchPieDescription": "Banana Cream Pie and Cherry Pie might be too sweet and could even taste bitter. 🍒"
       },
       "ENFJ": {
         "pie": "Raspberry Chocolate Pie",
         "emoji": "❤️",
-        "description": "A romantic leader pie armed with love and passion. ❤️",
+        "description": "A romantic leader pie armed with love and passion.",
         "goodMatchPieDescription": "Raspberry Chocolate Pie and Peach Crumble Pie are a combination that creates sweet art!",
         "badMatchPieDescription": "Raspberry Chocolate Pie and Meat Pie might be too sweet and could even taste bitter. 🥩"
       },
       "INTP": {
         "pie": "Cherry Pie",
         "emoji": "🍒",
-        "description": "Looks ordinary, but filled with peculiar logic inside. 🍒",
+        "description": "Looks ordinary, but filled with peculiar logic inside.",
         "goodMatchPieDescription": "Cherry Pie and Chicken Pot Pie are an unexpected combination of quirkiness and reliability!",
         "badMatchPieDescription": "Cherry Pie and Walnut Pie might be too sweet and could even taste bitter. 🌰"
       },
       "ENTJ": {
         "pie": "Steak & Ale Pie",
         "emoji": "🥩",
-        "description": "Full of plans and drive! A leadership pie that devours goals. 🥩",
+        "description": "Full of plans and drive! A leadership pie that devours goals.",
         "goodMatchPieDescription": "Steak & Ale Pie and Blueberry Pie are a perfect blend of planning and imagination!",
         "badMatchPieDescription": "Steak & Ale Pie and Peach Crumble Pie might be too sweet and could even taste bitter. 🍑"
       },
       "ISTP": {
         "pie": "Meat Pie",
         "emoji": "🍖",
-        "description": "Actions speak louder than words! A practical technician style meat pie. 🍖",
+        "description": "Actions speak louder than words! A practical technician style meat pie.",
         "goodMatchPieDescription": "Meat Pie and Banana Cream Pie are an unexpected combination of practical skill and softness!",
         "badMatchPieDescription": "Meat Pie and Rainbow Pie might be too sweet and could even taste bitter. 🌈"
       }
