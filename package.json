@@ -1,6 +1,6 @@
 {
   "name": "pi-fortune-app",
-  "homepage": "http://sangwon.github.io/pi-fortune-app",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
