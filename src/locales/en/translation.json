@@ -12,7 +12,7 @@
     "yourResult": "Your Pie: {{result}}",
     "goodMatch": "Best Match",
     "badMatch": "Worst Match",
-    "restartButton": "Take the Test Again"
+    "restartButton": "Restart the Test"
   },
   "mbtiData": {
     "questions": [

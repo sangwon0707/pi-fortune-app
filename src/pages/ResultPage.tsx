@@ -47,7 +47,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
       <div ref={resultRef}> {/* Wrap the content to be captured with a ref */}
         {mbtiImage && (
           <div className="flex justify-center mt-8 mb-4">
-            <img src={mbtiImage} alt={result} className="w-[200px] h-[200px] rounded-full object-cover shadow-lg" />
+            <img src={mbtiImage} alt={result} className="w-[180px] h-[180px] rounded-full object-cover shadow-lg" />
           </div>
         )}
         <h2 className="text-[#0c151d] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">
@@ -80,14 +80,14 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
         <div className="flex px-4 py-3">
           <button
             onClick={handleDownload}
-            className="flex min-w-[84px] max-w-[240px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105 mr-2"
+            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-[#adf0cc] text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105 mr-2"
           >
             <span className="truncate">Download</span>
           </button>
           <button
             id="restart-button" // Added ID to exclude from screenshot
             onClick={onRestart}
-            className="flex min-w-[84px] max-w-[720px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105"
+            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-coral text-[#0c151d] text-base font-bold leading-normal tracking-[0.015em] shadow-lg transform transition-transform hover:scale-105"
           >
             <span className="truncate">{t('resultPage.restartButton')}</span>
           </button>
