@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 type GameState = 'start' | 'playing' | 'result';
 
 function App() {
-  const { } = useTranslation();
+  
   const [gameState, setGameState] = useState<GameState>('start');
   const [answers, setAnswers] = useState<string[]>([]);
   const [result, setResult] = useState<MbtiType | null>(null);
