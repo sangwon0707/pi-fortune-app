@@ -14,6 +14,11 @@
     "badMatch": "Worst Match",
     "restartButton": "Restart the Test"
   },
+  "adPage": {
+    "title": "A quick message from our sponsors!",
+    "description": "Your result is almost ready. Please wait a moment.",
+    "continueButton": "Continue to Result"
+  },
   "mbtiData": {
     "questions": [
       {

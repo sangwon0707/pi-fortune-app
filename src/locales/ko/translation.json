@@ -14,6 +14,11 @@
     "badMatch": "최악의 궁합",
     "restartButton": "테스트 다시하기"
   },
+  "adPage": {
+    "title": "광고 메시지",
+    "description": "결과가 거의 준비되었습니다. 잠시만 기다려 주세요.",
+    "continueButton": "결과 보기"
+  },
   "mbtiData": {
     "questions": [
       {

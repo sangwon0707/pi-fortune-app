@@ -4,10 +4,11 @@ import MobileAppWrapper from './components/MobileAppWrapper';
 import StartPage from './pages/StartPage';
 import QuestionPage from './pages/QuestionPage';
 import ResultPage from './pages/ResultPage';
+import AdPage from './pages/AdPage';
 import { mbtiData, MbtiType } from './data/mbti';
 
 
-type GameState = 'start' | 'playing' | 'result';
+type GameState = 'start' | 'playing' | 'ad' | 'result';
 
 function App() {
   
@@ -26,8 +27,12 @@ function App() {
 
     if (newAnswers.length === mbtiData.questions.length) {
       calculateResult(newAnswers);
-      setGameState('result');
+      setGameState('ad'); // Transition to ad state
     } 
+  };
+
+  const handleAdComplete = () => {
+    setGameState('result');
   };
 
   const handleRestart = () => {
@@ -67,6 +72,8 @@ function App() {
         return <StartPage onStart={handleStart} />;
       case 'playing':
         return <QuestionPage questionIndex={answers.length} onAnswer={handleAnswer} />;
+      case 'ad':
+        return <AdPage onAdComplete={handleAdComplete} />;
       case 'result':
         return result ? <ResultPage result={result} onRestart={handleRestart} /> : null;
       default:
