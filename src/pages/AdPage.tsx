@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface AdPageProps {
@@ -7,6 +7,17 @@ interface AdPageProps {
 
 const AdPage: React.FC<AdPageProps> = ({ onAdComplete }) => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://groleegni.net/401/9498297';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="flex flex-col items-center justify-center h-full bg-[#fffceb] p-4">
