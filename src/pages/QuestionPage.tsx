@@ -21,11 +21,11 @@ const QuestionPage: React.FC<QuestionPageProps> = ({ questionIndex, onAnswer }) 
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full bg-gray-50 p-4">
+    <div className="flex flex-col items-center justify-center h-full bg-[#fffceb] p-4">
       <div className="w-full max-w-md">
         <div className="mb-4">
           <div className="relative pt-1">
-            <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
+            <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
               <div style={{ width: `${progress}%` }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-coral"></div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const QuestionPage: React.FC<QuestionPageProps> = ({ questionIndex, onAnswer }) 
           <button
             onClick={handleNext}
             disabled={!selectedAnswer}
-            className="mt-6 w-full bg-coral hover:bg-purple-600 text-white font-bold py-3 px-4 rounded-lg transition-opacity disabled:opacity-50"
+            className="mt-6 w-full bg-gray-200 hover:bg-coral text-white font-bold py-3 px-4 rounded-lg transition-opacity disabled:opacity-50"
           >
             {t('questionPage.nextButton')}
           </button>
