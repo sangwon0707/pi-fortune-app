@@ -50,7 +50,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
             <img src={mbtiImage} alt={result} className="w-[180px] h-[180px] rounded-full object-cover shadow-lg" />
           </div>
         )}
-        <h2 className="text-[#0c151d] tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">
+        <h2 className="text-[#0c151d] tracking-light text-[25px] font-bold leading-tight px-4 text-center pb-3 pt-5">
           {t('resultPage.yourResult', { result: t(`mbtiData.mbtiPies.${result}.pie`) })}
         </h2>
         
