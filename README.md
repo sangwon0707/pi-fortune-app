@@ -1,47 +1,69 @@
-# Getting Started with Create React App
+# 🥧 Pi Fortune App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 소개
 
-## Available Scripts
+'Pi Fortune App'은 사용자가 몇 가지 질문에 답하여 자신의 성격 유형을 파이 종류에 비유하여 알아보는 MBTI 기반의 웹 애플리케이션입니다. 각 파이 유형은 고유한 특성과 궁합을 가지며, 사용자는 자신의 결과를 이미지로 다운로드할 수 있습니다.
 
-In the project directory, you can run:
+## 주요 기능
 
-### `npm start`
+-   **MBTI 기반 성격 테스트:** 질문에 답하여 자신에게 맞는 파이 유형을 찾습니다.
+-   **결과 페이지:** 자신의 파이 유형, 특징, 그리고 최고의 궁합 및 최악의 궁합 파이를 확인합니다.
+-   **결과 이미지 다운로드:** 자신의 파이 유형 결과 이미지를 다운로드하여 공유할 수 있습니다.
+-   **다국어 지원:** 한국어(ko)와 영어(en)를 지원합니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 사용 기술
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   **Frontend:**
+    -   React (TypeScript)
+    -   Tailwind CSS (스타일링)
+    -   i18next (다국어 지원)
+    -   html2canvas (결과 이미지 다운로드)
 
-### `npm test`
+## 설치 및 실행
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+프로젝트를 로컬 환경에서 설정하고 실행하는 방법입니다.
 
-### `npm run build`
+### 1. 저장소 클론
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/sangwon0707/pi-fortune-app.git
+cd pi-fortune-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. 의존성 설치
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+프로젝트 폴더에서 다음 명령어를 실행하여 필요한 패키지를 설치합니다.
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. 개발 서버 실행
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+이 명령어를 실행하면 개발 서버가 시작되고, 브라우저에서 `http://localhost:3000`으로 애플리케이션을 확인할 수 있습니다.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 4. 프로덕션 빌드
 
-## Learn More
+배포를 위한 최적화된 빌드 파일을 생성합니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# pi-fortune-app
+빌드된 파일은 `build` 폴더에 생성됩니다.
+
+## 배포
+
+이 프로젝트는 Netlify를 통해 자동으로 배포됩니다. `main` 브랜치에 푸시될 때마다 새로운 빌드가 트리거됩니다.
+
+## 기여
+
+기여를 환영합니다! 버그 리포트, 기능 제안 또는 코드 개선에 참여하고 싶으시다면 언제든지 이슈를 열거나 풀 리퀘스트를 제출해주세요.
+
+## 라이선스
+
+이 프로젝트는 MIT 라이선스에 따라 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
