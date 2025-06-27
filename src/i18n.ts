@@ -15,7 +15,7 @@ i18n
         translation: koTranslation,
       },
     },
-    lng: 'en', // default language
+    lng: 'ko', // default language
     fallbackLng: 'en',
 
     interpolation: {
