@@ -15,9 +15,8 @@
     "restartButton": "Restart the Test"
   },
   "adPage": {
-    "title": "A quick message from our sponsors!",
-    "description": "Your result is almost ready. Please wait a moment.",
-    "continueButton": "Continue to Result"
+    "loadingAd": "Loading your result...",
+    "pleaseWait": "Please wait a moment while we prepare your personalized pie."
   },
   "mbtiData": {
     "questions": [
